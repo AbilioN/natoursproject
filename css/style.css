@@ -216,3 +216,20 @@ body {
 .btn-text:active {
   box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.15);
   transform: translateY(0); }
+
+.composition {
+  position: relative; }
+  .composition .composition-photo {
+    width: 55%;
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
+    border-radius: 2px;
+    position: absolute; }
+    .composition .composition-photo-p1 {
+      left: 0;
+      top: -2rem; }
+    .composition .composition-photo-p2 {
+      right: 0;
+      top: 2rem; }
+    .composition .composition-photo-p3 {
+      left: 0;
+      top: -2rem; }
